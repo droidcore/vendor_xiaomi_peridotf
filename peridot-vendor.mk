@@ -31,11 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
+    vendor/xiaomi/peridot/proprietary/odm/etc/backend_conf_fs.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf_fs.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_ODM)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/af_class_all.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/af_class_all.dlc \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/af_class_human.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/af_class_human.dlc \
@@ -618,201 +615,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/0_click_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/101_offlineCountdown_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/102_sceneBombInjury_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/103_sceneBomb_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/104_doorOpen_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/106_sceneStep_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/107_crawl_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/107_crawl_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/108_scopeOn_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/109_scopeOff_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/10_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/110_magazineQuick_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/111_grenade_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/111_grenade_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/112_sceneGetshot_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/113_grenadeExplosion_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/114_punch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/114_punch_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/115_pan_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/115_pan_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/116_bandage_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/116_bandage_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/118_sceneJump_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/119_vehiclePlane_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/11_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/120_sceneOpenparachute_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/121_sceneCloseparachute_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/122_vehicleCollision_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/123_vehicleBuggy_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/124_vehicleDacia_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/125_vehicleMoto_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/126_firearmsAkm_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/127_firearmsM16a4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/128_firearmsAwm_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/12_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/130_firearmsMini14_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/131_firearmsVss_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/132_firearmsQbz_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/133_firearmsUmp9_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/134_firearmsDp28_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/135_firearmsS1897_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/137_firearmsP18c_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/13_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/140_cfmKillOne_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/141_cfmHeadshot_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/142_cfmMultiKill_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/143_cfmKillOneStrong_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/144_cfmHeadshotStrong_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/145_cfmMultiKillStrong_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/146_cfmWeaponGrenadeExplode_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/148_cfmImpactFleshNormal_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/149_cfmWeaponC4Installed_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/14_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/150_cfmHeroAppear_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/151_cfmUIRewardOpenBox_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/152_cfmUIRewardTask_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/153_cfmWeaponBLTShoot_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/154_Atlantis_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/155_DigitalUniverse_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/156_Reveries_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/157_fodMotionTriang_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/158_fodMotionFlare_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/159_fodMotionRipple_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/15_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/160_fodMotionSpiral_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/161_gameboxLaunch_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/162_GestureBackPull_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/163_GestureBackRelease_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/164_alert_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/164_alert_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/165_feedbackNegativeLight_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/166_feedbackNeutral_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/167_feedbackPositive_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/168_fingerprintRecord_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/169_lockdown_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/16_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/170_slidingDamping_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/171_todoAlldone_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/172_uninstallAnimationIcon_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/173_signalButtonHighlight_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/174_signalButtonNegative_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/175_signalButton_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/176_signalClockHigh_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/177_signalClock_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/178_signalClockUnit_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/179_signalInputbox_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/17_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/180_signalKeyHigh_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/181_signalKeyUnit_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/182_signalListHighlight_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/183_signalList_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/183_signalList_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/184_signalPicker_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/185_signalPopup_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/186_signalSeekbar_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/187_signalSwitch_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/188_signalTab_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/189_signalText_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/189_signalText_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/18_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/190_signalTransitionLight_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/191_signalTransition_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/192_hapticsVideo_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/19_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/1_doubelClick_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/201_BoundaryBounce_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/201_BoundaryBounce_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/202_BoundaryBottom_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/202_BoundaryBottom_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/203_BoundaryTop_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/203_BoundaryTop_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/204_SlideTag_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/204_SlideTag_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/205_SuperPositive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/205_SuperPositive_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/206_Positive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/206_Positive_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/207_Negative_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/207_Negative_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/208_Mute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/208_Mute_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/209_ScreenLock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/209_ScreenLock_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/20_ringTone4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/210_FingerprintUnlock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/210_FingerprintUnlock_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/211_Charge_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/211_Charge_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/212_NotificationCleanup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/212_NotificationCleanup_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/213_ProcessCleanup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/213_ProcessCleanup_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/214_APPUninstallation_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/214_APPUninstallation_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/215_GameBoxStartup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/215_GameBoxStartup_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/216_EdittingMode_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/216_EdittingMode_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/217_CameraShutter_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/217_CameraShutter_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/23_Candy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/23_Candy_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/24_Carousel_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/25_Celesta_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/26_Childhood_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/27_Country_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/27_Country_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/28_Cowboy_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/2_tick_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/30_Fairyland_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/31_Fantasy_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/32_FieldTrip_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/33_Glee_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/33_Glee_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/35_IceLatte_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/36_KungFu_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/38_Lollipop_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/39_MiMix2_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/3_thud_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/40_Mi_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/40_Mi_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/41_MiHouse_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/42_MiJazz_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/43_MiRemix_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/44_MountainSpring_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/45_Orange_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/45_Orange_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/46_WindChime_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/47_SpaceAge_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/48_ToyRobot_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/49_Vigor_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/4_pop_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/50_Bottle_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/51_Bubble_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/521_AcousticGuitar_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/52_Bullfrog_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/53_Burst_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/53_Burst_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/54_Chirp_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/55_Clank_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/55_Clank_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/56_Crystal_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/57_FadeIn_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/58_FadeOut_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/59_Flute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/59_Flute_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/5_heavyClick_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/60_Fresh_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/61_Frog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/61_Frog_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/62_Guitar_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/63_Harp_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/63_Harp_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/64_IncomingMessage_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/65_MessageSent_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/66_Moment_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/66_Moment_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/67_NotificationXylophone_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/68_Potion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/68_Potion_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/69_Radar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/69_Radar_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/6_ringTone1_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/70_Spring_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/70_Spring_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/71_Swoosh_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/72_GestureUpSlide_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/73_fodMotionPlanet_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/74_ChargeWire_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/75_ChargeWireless_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/76_UnlockFailed_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/77_fodMotion1_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/78_fodMotion2_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/79_fodMotion3_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/7_ringTone2_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/80_fodMotion4_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/81_fodMotionAurora_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/82_FaceIDWrong2_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/83_uninstallAnimation_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/84_uninstallDialog_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/85_screenshot_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/86_lockscreenCameraEntry_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/87_launcherEdit_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/88_launcherIconSelection_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/8_ringTone3_P_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/90_taskCleanAll_Rtp.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/91_newIconFolder_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/92_notificationRemove_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/93_notificationCleanall_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/96_nfcCard_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/98_nfcCardSlow_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/99_POCO_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/99_POCO_RTP.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/9_ringTone4_P_RTP.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b01 \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b02 \
@@ -897,12 +699,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_firmware_peridot_csot.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_firmware_peridot_csot.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_firmware_peridot_csot_second.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_firmware_peridot_csot_second.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_test_limits_255.csv \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_ram.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_ram.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_auto_sin.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_auto_sin.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_lighthouse.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_lighthouse.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_osc_24K_5s.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_osc_24K_5s.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_silk.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_silk.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_2v.mbn \
     vendor/xiaomi/peridot/proprietary/odm/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu33_4v.mbn \
     vendor/xiaomi/peridot/proprietary/odm/lib64/bm3b68v04s12n52.bin:$(TARGET_COPY_OUT_ODM)/lib64/bm3b68v04s12n52.bin \
@@ -1037,9 +833,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/xiaomi/peridot/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     vendor/xiaomi/peridot/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.qcc.vendor_qcc.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
@@ -1050,18 +848,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__11.0.1.6_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__11.0.1.6_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.5_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.5_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
     vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd \
     vendor/xiaomi/peridot/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/audio/sku_cliffs/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/audio_effects.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_perf.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/camera/cameraopt_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_vendor.json \
@@ -1104,7 +904,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/data/nicm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/nicm_config.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/data/tlpd_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/tlpd_oem_config.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/display/3dlut-pt-onnx-ptq-htp-fp16.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/3dlut-pt-onnx-ptq-htp-fp16.dlc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/display/8635_sr_2x_y1280x720.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/8635_sr_2x_y1280x720.dlc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/display/8635_sr_2x_y540x960.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/8635_sr_2x_y540x960.dlc \
@@ -1187,7 +986,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.mbnota.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mbnota.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag_userdebug.rc \
@@ -1300,7 +1098,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
@@ -1310,34 +1107,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gen71100_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_gmu.bin \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gen71100_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_sqe.fw \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
-    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
-    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
-    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
-    vendor/xiaomi/peridot/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libPipeline_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libPipeline_plugin.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libVkLayer_ADRENO_qprofiler.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/gpu++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gpu++.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_aptx.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_ble.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_bundle.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libadreno_compiler_cl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_compiler_cl.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libcustomva_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustomva_intf.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libgpumemtracer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpumemtracer.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libgpuservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpuservice.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libhotword_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhotword_intf.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalclient.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbadreno_utils.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbgsl.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbllvm-glnext.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vkbllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vkbllvm-qgl.so \
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/android.hardware.audio.common@7.1-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.1-util.so \
     vendor/xiaomi/peridot/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
@@ -1438,8 +1208,13 @@ PRODUCT_PACKAGES += \
     libadsp_default_listener \
     libadsprpc \
     libagm \
+    libagmmixer \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
     libar-pal \
     libarmemlog \
+    libats \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudiofeaturestats \
@@ -1475,6 +1250,7 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libcppbor_peridot \
+    libcustomva_intf \
     libcv_common \
     libdapparamstorage \
     libdataitems \
@@ -1540,6 +1316,7 @@ PRODUCT_PACKAGES += \
     libhdrdynamicootf \
     libhdrvivid \
     libhistogram \
+    libhotword_intf \
     libidl \
     libintervmipc \
     libizat_client_api \
@@ -1580,6 +1357,8 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
+    liblx-ar_util \
+    liblx-osal \
     libmapdata_api \
     libmasc \
     libmcs \
@@ -1630,6 +1409,7 @@ PRODUCT_PACKAGES += \
     libops \
     libos \
     libpal_net_if \
+    libpalclient \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
@@ -1756,7 +1536,7 @@ PRODUCT_PACKAGES += \
     libsi \
     libslimclient \
     libsmemlog \
-    libsn100u_fw \
+    libsn220u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsns_device_mode_stub \
@@ -1917,6 +1697,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal@1.0_vendor \
     vendor.qti.gnss-V6-ndk \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm-V1-ndk \
@@ -2572,8 +2353,9 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    com.qualcomm.qti.gpudrivers.pineapple.api34 \
     uimgbaservice \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     AtFwd2 \
     ImsRcsService \
     QCC \
@@ -2589,6 +2371,7 @@ PRODUCT_PACKAGES += \
     uimgbamanagerlibrary \
     uimservicelibrary \
     camerax-vendor-extensions \
+    com.android.hotwordenrollment.common.util \
     qcrilhook \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.connectionaidlservice-V1-java \
@@ -2629,8 +2412,6 @@ PRODUCT_PACKAGES += \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
-    manifest_non_qmaa.xml \
-    manifest_non_qmaa_extn.xml \
     mwqem-saidl.xml \
     qcrilhook-saidl.xml \
     qesdk-manager.xml \
@@ -2727,7 +2508,6 @@ PRODUCT_PACKAGES += \
     ks \
     loc_launcher \
     lowi-server \
-    mbnota \
     mi_thermald \
     mlid \
     nicmd \
